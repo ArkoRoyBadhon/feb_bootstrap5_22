@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- normal css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Bootstrap Project</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- -------------slider area start---------- -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/slider1.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slider2.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slider3.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- -------------slider area end---------- -->
+
+  <!-- --------------about area start--------------------->
+  <section class="main_heading my-5">
+    <div class="text-center">
+      <h1 class="display-4">ABout Us</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class=" col-md-6 col-lg-6 col-xl-6 col-xxl-6 image-size">
+          <figure>
+            <img src="./img/slider1.jpg" alt="" class="img-fluid">
+          </figure>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-center align-items-start">
+          <h2>Arko Roy Badhon</h2>
+          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe esse provident tempore totam
+            ea illo hic. Eum iure non repellendus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+            numquam? Ratione deleniti ea excepturi doloribus eum saepe officia. Autem, repudiandae.</p>
+          <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="It was me">Check Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------about area end--------------------->
+  <!-- --------------service area start--------------------->
+  <section class="main_heading mt-5 bg-light pt-5">
+    <div class="text-center">
+      <h1 class="display-4">Services</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="./img/index.jpg" class="img-fluid rounded" alt="..." style="width: 100%; height: 100%;">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="./img/index.jpg" class="img-fluid rounded" alt="..." style="width: 100%; height: 100%;">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="./img/index.jpg" class="img-fluid rounded" alt="..." style="width: 100%; height: 100%;">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center my-5">
+          <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="It was me">Check Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------service area end--------------------->
+  <!-- --------------Gallery area start--------------------->
+  <section class="main_heading my-5 pt-5">
+    <div class="text-center">
+      <h1 class="display-4">Services</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+    <div class="container img-size my-5">
+      <div class="row gy-2">
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-10 col-md-4 col-xxl-4">
+          <figure>
+            <img src="./img/index.jpg" alt="gallery" class="img-fluid">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------Gallery area end--------------------->
+  <!-- --------------offers area start--------------------->
+  <section class="main_heading">
+    <div class="container-fluid bg-primary">
+      <div class="row">
+        <div class="col-12 col-md-12 py-5 text-center">
+          <h1>Arko Roy Badhon</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam soluta aut, eius quisquam saepe mollitia.
+          </p>
+          <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+              <path
+                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+            </svg> Check Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Arko Roy Badhon</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          I am a student of CSE
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.youtube.com/watch?v=fWQpb6T89d4&list=RDzSq6Jk-sFFs&index=27">
+            <button type="button" class="btn btn-primary">Check Now</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------offers area end--------------------->
+  <!-- --------------Contact Us area start--------------------->
+  <section class="main_heading my-5 pt-5">
+    <div class="text-center">
+      <h1 class="display-4">About US</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-8 col-10 col-md-8 mx-auto">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label class="pr-4">Gender</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Male</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleDataList" class="form-label">Select City</label>
+              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Select City">
+              <datalist id="datalistOptions">
+                <option value="San Francisco"> </option>
+                <option value="New York"> </option>
+                <option value="Seattle"> </option>
+                <option value="Los Angeles"> </option>
+                <option value="Chicago"> </option>
+              </datalist>
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Default file input example</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------Contact Us area end--------------------->
+  <!-- --------------Footer Us area start--------------------->
+  <footer class="bg-secondary text-center text-white">
+    <p>@copyright Arko Roy Badhon</p>
+  </footer>
+  <!-- --------------Footer Us area end--------------------->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</body>
+
+</html>

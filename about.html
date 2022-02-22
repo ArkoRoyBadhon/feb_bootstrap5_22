@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- normal css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bootstrap Project</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- --------------about area start--------------------->
+    <section class="main_heading my-5">
+        <div class="text-center">
+            <h1 class="display-4">ABout Us</h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class=" col-md-6 col-lg-6 col-xl-6 col-xxl-6 image-size">
+                    <figure>
+                        <img src="./img/slider1.jpg" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div
+                    class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-center align-items-start">
+                    <h2>Arko Roy Badhon</h2>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe esse provident
+                        tempore totam
+                        ea illo hic. Eum iure non repellendus?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nesciunt,
+                        numquam? Ratione deleniti ea excepturi doloribus eum saepe officia. Autem, repudiandae.</p>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip"
+                        data-bs-placement="right" title="It was me">Check Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- ---------scrollspy start------- -->
+        <div class="container">
+            <div class="row">
+                <div id="navbar-example" style="position: relative;">
+
+                    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading1">First</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Dropdown</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
+                        class="scrollspy-example" style="height:300px; overflow-y: scroll;" tabindex="0">
+                        <h4 id="scrollspyHeading1">First heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep
+                            adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <h4 id="scrollspyHeading2">Second heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep
+                            adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <h4 id="scrollspyHeading3">Third heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep
+                            adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <h4 id="scrollspyHeading4">Fourth heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep
+                            adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                        <h4 id="scrollspyHeading5">Fifth heading</h4>
+                        <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the
+                            page,
+                            the
+                            appropriate navigation link is highlighted. It's repeated throughout the component example.
+                            We
+                            keep
+                            adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------scrollspy start------- -->
+    </section>
+    <!-- --------------about area end--------------------->
+
+
+
+
+    <!-- --------------Footer Us area start--------------------->
+    <footer class="bg-secondary text-center text-white">
+        <p>@copyright Arko Roy Badhon</p>
+    </footer>
+    <!-- --------------Footer Us area end--------------------->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar-example'
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel img{ 
+    width:100%;
+    height:70vh;
+ }
+
+.image-size img{
+    width: 100%;
+    height: 40vh;
+}
+.img-size img{
+    height: 50vh;
+    width: 100%;
+}
+footer p{
+    margin-bottom: 0;
+}
